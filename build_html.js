@@ -16,6 +16,16 @@ function makePage(content) {
       <meta property="og:image" content="https://experiments.fastforwardlabs.com/images/experiments-share3.png" />
       <meta property="og:url" content="https://experiments.fastforwardlabs.com"  />
       <meta name="twitter:card" content="summary_large_image" />
+
+      <!-- Global site tag (gtag.js) - Google Analytics -->
+      <script async src="https://www.googletagmanager.com/gtag/js?id=UA-140718127-1"></script>
+      <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'UA-140718127-1');
+      </script>
+
       <link rel="stylesheet" type="text/css" href="style.css" />
     </head>
     <body>
