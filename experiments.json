@@ -1,0 +1,148 @@
+{
+  "experiments": [
+    {
+      "name": "Deep Learning for Anomaly Detection",
+      "head": "Report",
+      "featured": true,
+      "description": "Learn how to use deep learning approaches (including sequence models, VAEs, and GANS) for anomaly detection.",
+      "url": "https://ff12.fastforwardlabs.com",
+      "image": "/images/uploads/ff12.gif"
+    },
+    {
+      "name": "Blip",
+      "head": "Prototype",
+      "featured": true,
+      "description": "Blip visualizes how four different anomaly detection algorithms perform at detecting network attacks.",
+      "url": "https://blip.fastforwardlabs.com",
+      "image": "/images/uploads/blip.gif"
+    },
+    {
+      "name": "Squote",
+      "head": "Demo",
+      "featured": false,
+      "description": "A semantic search engine that takes some input text and returns relevant famous quotes.",
+      "url": "https://github.com/cjwallace/squote",
+      "image": "/images/uploads/squote.gif"
+    },
+    {
+      "name": "Textflix Report",
+      "head": "Report",
+      "featured": false,
+      "description": "Learn about how we used transfer learning and a pretrained BERT model to build our sentiment analysis prototype.",
+      "url": "https://textflix-report.fastforwardlabs.com",
+      "image": "/images/uploads/textflix-report.gif"
+    },
+    {
+      "name": "Textflix",
+      "head": "Prototype",
+      "featured": true,
+      "description": "Textflix uses movie reviews to show how machine learning can unlock the data embedded in large amounts of unstructured text.",
+      "url": "https://textflix.fastforwardlabs.com",
+      "image": "/images/uploads/textflix-s.gif"
+    },
+    {
+      "name": "ConvNet Playground",
+      "head": "Prototype",
+      "featured": true,
+      "description": "With ConvNet Playground you can explore how a convolutional neural network does semantic image search.",
+      "url": "https://convnetplayground.fastforwardlabs.com",
+      "image": "/images/uploads/convnet-s.gif"
+    },
+    {
+      "name": "Weak supervision with Snorkel",
+      "head": "Notebook",
+      "featured": false,
+      "description": "A notebook showing how to train a complaint classifier with Snorkel. Using data from the Consumer Financial Protection Bureau.",
+      "url": "https://github.com/fastforwardlabs/snorkel-demo-colab/blob/master/snorkel_demo.ipynb",
+      "image": "/images/uploads/colab.gif"
+    },
+    {
+      "name": "Active Learner",
+      "head": "Prototype",
+      "featured": true,
+      "description": "An interactive visualization of active learning data labeling strategies for supervised machine learning.",
+      "url": "https://activelearner.fastforwardlabs.com",
+      "image": "/images/uploads/active-learner-short.gif"
+    },
+    {
+      "name": "Handtrack.js",
+      "head": "Library",
+      "featured": false,
+      "description": "Handtrack.js is a library for prototyping realtime hand detection (bounding box), directly in the browser.",
+      "url": "https://victordibia.github.io/handtrack.js",
+      "image": "/images/uploads/bossflip.gif"
+    },
+    {
+      "name": "UMAP Explorer",
+      "head": "Demo",
+      "featured": false,
+      "description": "An interactive UMAP visualization of the MNIST data set.",
+      "url": "https://grantcuster.github.io/umap-explorer",
+      "image": "/images/uploads/umap_zoom-1547839236.gif"
+    },
+    {
+      "name": "Active Learning with Logistic Regression",
+      "head": "Demo",
+      "featured": false,
+      "description": "A toy example about logistic regression and different active learning strategies.",
+      "url": "https://observablehq.com/@cjwallace/an-invitation-to-active-learning",
+      "image": "/images/uploads/2019-04-04-171937-uncertainty_sampling_observable_fast.gif"
+    },
+    {
+      "name": "Turbofan Tycoon",
+      "head": "Prototype",
+      "featured": true,
+      "description": "See if you have what it takes to make it as a turbofan factory owner in our federated learning prototype.",
+      "url": "https://turbofan.fastforwardlabs.com",
+      "image": "/images/uploads/2018-12-07-163940-turbofan_even_shorter.gif"
+    },
+    {
+      "name": "Probabilistic Real Estate",
+      "head": "Prototype",
+      "featured": true,
+      "description": "A probabilistic programming prototype that predicts future real estate prices across New York City boroughs and neighborhoods.",
+      "url": "http://fastforwardlabs.github.io/pre",
+      "image": "/images/uploads/pre.gif"
+    },
+    {
+      "name": "Brief Preview",
+      "head": "Prototype",
+      "featured": true,
+      "description": "Brief uses neural networks to score and highlight the most interesting sentences within any article.",
+      "url": "http://fastforwardlabs.github.io/brief/",
+      "image": "/images/uploads/brief-pre.gif"
+    },
+    {
+      "name": "Using three.js for 2D Data Visualization",
+      "head": "Tutorial",
+      "featured": false,
+      "description": "An interactive notebook about using three.js to render tens of thousands of points.",
+      "url": "https://observablehq.com/@grantcuster/using-three-js-for-2d-data-visualization",
+      "image": "/images/uploads/obs-three.gif"
+    },
+    {
+      "name": "Encartopedia",
+      "head": "Demo",
+      "featured": false,
+      "description": "Encartopedia visualizes Wikipedia topic clusters and plots your journey through them.",
+      "url": "http://encartopedia.fastforwardlabs.com",
+      "image": "/images/uploads/encart.gif"
+    },
+    {
+      "name": "Visualizing the Taste of a Community of Cinephiles",
+      "head": "Demo",
+      "featured": false,
+      "description": "An interactive visualization that uses T-SNE to cluster movies together based on user ratings.",
+      "url": "http://fastforwardlabs.github.io/cinephile_tsne/",
+      "image": "/images/uploads/cinephiles.gif"
+    },
+    {
+      "name": "Luhn Method Demo",
+      "head": "Demo",
+      "featured": false,
+      "description": "Luhn's method, from 1958, provides a foundation for understanding modern auto-summarization techniques.",
+      "url": "http://fastforwardlabs.github.io/luhn/",
+      "image": "/images/uploads/luhn.gif"
+    }
+  ]
+}

@@ -1,0 +1,178 @@
+@font-face {
+  font-family: 'Plex Mono';
+  src: url('fonts/IBMPlexMono-Regular.woff2') format('woff2'),
+    url('fonts/IBMPlexMono-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Plex Mono';
+  src: url('fonts/IBMPlexMono-Italic.woff2') format('woff2'),
+    url('fonts/IBMPlexMono-Italic.woff') format('woff');
+  font-weight: normal;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Plex Sans';
+  src: url('fonts/IBMPlexSans-Regular.woff2') format('woff2'),
+    url('fonts/IBMPlexSans-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Plex Sans';
+  src: url('fonts/IBMPlexSans-Italic.woff2') format('woff2'),
+    url('fonts/IBMPlexSans-Italic.woff') format('woff');
+  font-weight: normal;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Plex Sans';
+  src: url('fonts/IBMPlexSans-Bold.woff2') format('woff2'),
+    url('fonts/IBMPlexSans-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Plex Sans';
+  src: url('fonts/IBMPlexSans-BoldItalic.woff2') format('woff2'),
+    url('fonts/IBMPlexSans-BoldItalic.woff') format('woff');
+  font-weight: bold;
+  font-style: italic;
+}
+
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Plex Sans', sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+}
+img {
+}
+a {
+  color: inherit;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+.posts {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  grid-auto-rows: 280px;
+  grid-auto-flow: dense;
+  grid-row: span 2;
+  grid-column-gap: 16px;
+  grid-row-gap: 16px;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+.post {
+  position: relative;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  border: solid 1px black;
+  background: #fff;
+}
+.post:before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0);
+  z-index: 99;
+  transition: background 0.1s;
+}
+.post:hover:before {
+  background: rgba(0, 0, 0, 0.05);
+}
+
+.container {
+  max-width: 594px;
+  margin: 0 auto;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+.spacer {
+  width: 100%;
+  height: 24px;
+}
+
+h1 {
+  font-size: 40px;
+  line-height: 1.1;
+}
+
+.post-head {
+  font-family: IBM Plex Mono;
+  font-size: 14px;
+}
+h3,
+.post-name {
+  font-size: 24px;
+  line-height: 1.2;
+  font-weight: 700;
+}
+h2,
+.featured .post-name {
+  font-size: 32px;
+  line-height: 1.15;
+}
+
+.post.featured {
+  grid-column: span 2;
+  grid-row: span 2;
+}
+
+@media only screen and (max-width: 600px) {
+  .posts {
+    grid-template-columns: 100%;
+    grid-auto-rows: 120px;
+  }
+  .post {
+    grid-row: span 2;
+  }
+  .post.featured {
+    grid-column: span 1;
+    grid-row: span 3;
+  }
+}
+
+.post-top,
+.post-bot {
+  position: relative;
+  padding: 4px 8px;
+}
+.post-mid {
+  flex: 1;
+  position: relative;
+  background-size: cover;
+  background-position: center center;
+  border-top: solid 1px black;
+  border-bottom: solid 1px black;
+}
+
+.post .link {
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-decoration: underline;
+}
