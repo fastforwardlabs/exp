@@ -26,8 +26,9 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
 
+    - run: node build_html.js
+
     - uses: stefanzweifel/git-auto-commit-action@v4.1.6
       with:
         commit_message: Rebuild html
 
-    - run: node build_html.js
