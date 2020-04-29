@@ -42,9 +42,9 @@ content += header
 let experiments = '<div class="posts">'
 for (let i = 0; i < data.experiments.length; i++) {
   let post = data.experiments[i]
-  experiments += `<a class="post ${post.featured ? 'featured' : ''}" href=""${
+  experiments += `<a class="post ${post.featured ? 'featured' : ''}" href="${
     post.url
-  }>
+  }">
     <div class="post-top">
       <div class="post-head">${post.head}</div>
       <h2 class="post-name">${post.name}</h2>
