@@ -8,12 +8,12 @@ function makePage(content) {
     <head>
       <meta name="viewport" content="width=device-width" />
       <meta charSet="utf-8">
-      <link rel="icon" type="image/x-icon" href="/images/favicon.png" />
+      <link rel="icon" type="image/x-icon" href="/favicon.ico" />
       <title>AI Experiments – Cloudera Fast Forward</title>
       <meta property="og:title" content="AI Experiments - Cloudera Fast Forward" />
       <meta content="Machine learning visualizations and code by Cloudera Fast Forward." />
-      <meta property="og:description" content="Machine learning visualizations and code by Cloudera Fast Forward Labs." />
-      <meta property="og:image" content="https://experiments.fastforwardlabs.com/images/experiments-share2.png" />
+      <meta property="og:description" content="Machine learning visualizations and code by Cloudera Fast Forward." />
+      <meta property="og:image" content="https://experiments.fastforwardlabs.com/images/experiments-share3.png" />
       <meta property="og:url" content="https://experiments.fastforwardlabs.com"  />
       <meta name="twitter:card" content="summary_large_image" />
       <link rel="stylesheet" type="text/css" href="style.css" />

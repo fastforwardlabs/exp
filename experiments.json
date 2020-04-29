@@ -1,12 +1,52 @@
 {
   "experiments": [
     {
+      "name": "NLP for Question Answering",
+      "head": "Blog",
+      "featured": false,
+      "description": "Ongoing posts and code documenting the process of building a question answering model.",
+      "url": "https://qa.fastforwardlabs.com",
+      "image": "/images/uploads/qa.png"
+    },
+    {
+      "name": "Interpretability Revisited: SHAP and LIME",
+      "head": "Notebook",
+      "featured": false,
+      "description": "Explore how to use LIME and SHAP for interpretability.",
+      "url": "https://colab.research.google.com/drive/1pjPzsw_uZew-Zcz646JTkRDhF2GkPk0N",
+      "image": "/images/uploads/shap-and-lime.png"
+    },
+    {
+      "name": "Interpretability Report",
+      "head": "Report",
+      "featured": false,
+      "description": "Learn about using interpretability techniques on deep learning models.",
+      "url": "https://ff06-2020.fastforwardlabs.com",
+      "image": "/images/uploads/interpretability-report.png"
+    },
+    {
+      "name": "Refractor",
+      "head": "Prototype",
+      "featured": false,
+      "description": "Refractor predicts churn probabilities for telecom customers and shows which customer attributes contribute to those predictions.",
+      "url": "https://refractor.fastforwardlabs.com",
+      "image": "/images/uploads/refractor.gif"
+    },
+    {
+      "name": "Anomagram",
+      "head": "Prototype",
+      "featured": true,
+      "description": "An interactive visualization tool for exploring how a deep learning model can be applied to the task of anomaly detection.",
+      "url": "https://anomagram.fastforwardlabs.com",
+      "image": "/images/uploads/anomagram.gif"
+    },
+    {
       "name": "Deep Learning for Anomaly Detection",
       "head": "Report",
-      "featured": true,
+      "featured": false,
       "description": "Learn how to use deep learning approaches (including sequence models, VAEs, and GANS) for anomaly detection.",
       "url": "https://ff12.fastforwardlabs.com",
-      "image": "/images/uploads/ff12.gif"
+      "image": "/images/uploads/ff12-report.png"
     },
     {
       "name": "Blip",
@@ -30,7 +70,7 @@
       "featured": false,
       "description": "Learn about how we used transfer learning and a pretrained BERT model to build our sentiment analysis prototype.",
       "url": "https://textflix-report.fastforwardlabs.com",
-      "image": "/images/uploads/textflix-report.gif"
+      "image": "/images/uploads/textflix-report.png"
     },
     {
       "name": "Textflix",
@@ -54,7 +94,7 @@
       "featured": false,
       "description": "A notebook showing how to train a complaint classifier with Snorkel. Using data from the Consumer Financial Protection Bureau.",
       "url": "https://github.com/fastforwardlabs/snorkel-demo-colab/blob/master/snorkel_demo.ipynb",
-      "image": "/images/uploads/colab.gif"
+      "image": "/images/uploads/snorkel.png"
     },
     {
       "name": "Active Learner",
