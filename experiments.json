@@ -147,7 +147,7 @@
     {
       "name": "Brief Preview",
       "head": "Prototype",
-      "featured": true,
+      "featured": false,
       "description": "Brief uses neural networks to score and highlight the most interesting sentences within any article.",
       "url": "http://fastforwardlabs.github.io/brief/",
       "image": "/images/uploads/brief-pre.gif"
