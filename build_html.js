@@ -1,6 +1,6 @@
 let fs = require('fs')
 let data = JSON.parse(fs.readFileSync('experiments.json', 'utf-8'))
-console.log(data)
+let stripProtocol = url => url.replace(/^https?\:\/\//i, '')
 
 function makePage(content) {
   return `<!DOCTYPE html>
@@ -62,7 +62,7 @@ for (let i = 0; i < data.experiments.length; i++) {
     <div class="post-mid" style="background-image: url('${post.image}')"></div>
     <div class="post-bot">
       <div>${post.description}</div>
-      <div class="link">${post.url}</div>
+      <div class="link">${stripProtocol(post.url)}</div>
     </div>
   </a>`
 }
