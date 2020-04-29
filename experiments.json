@@ -139,7 +139,7 @@
     {
       "name": "Probabilistic Real Estate",
       "head": "Prototype",
-      "featured": true,
+      "featured": false,
       "description": "A probabilistic programming prototype that predicts future real estate prices across New York City boroughs and neighborhoods.",
       "url": "http://fastforwardlabs.github.io/pre",
       "image": "/images/uploads/pre.gif"
