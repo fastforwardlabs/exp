@@ -150,7 +150,7 @@
       "featured": false,
       "description": "Brief uses neural networks to score and highlight the most interesting sentences within any article.",
       "url": "http://fastforwardlabs.github.io/brief/",
-      "image": "/images/uploads/brief-pre.gif"
+      "image": "/images/uploads/brief.png"
     },
     {
       "name": "Using three.js for 2D Data Visualization",
@@ -158,7 +158,7 @@
       "featured": false,
       "description": "An interactive notebook about using three.js to render tens of thousands of points.",
       "url": "https://observablehq.com/@grantcuster/using-three-js-for-2d-data-visualization",
-      "image": "/images/uploads/obs-three.gif"
+      "image": "/images/uploads/3d-viz.png"
     },
     {
       "name": "Encartopedia",
@@ -166,7 +166,7 @@
       "featured": false,
       "description": "Encartopedia visualizes Wikipedia topic clusters and plots your journey through them.",
       "url": "http://encartopedia.fastforwardlabs.com",
-      "image": "/images/uploads/encart.gif"
+      "image": "/images/uploads/encartopedia.png"
     },
     {
       "name": "Visualizing the Taste of a Community of Cinephiles",
@@ -174,7 +174,7 @@
       "featured": false,
       "description": "An interactive visualization that uses T-SNE to cluster movies together based on user ratings.",
       "url": "http://fastforwardlabs.github.io/cinephile_tsne/",
-      "image": "/images/uploads/cinephiles.gif"
+      "image": "/images/uploads/cinephiles.png"
     },
     {
       "name": "Luhn Method Demo",
@@ -182,7 +182,7 @@
       "featured": false,
       "description": "Luhn's method, from 1958, provides a foundation for understanding modern auto-summarization techniques.",
       "url": "http://fastforwardlabs.github.io/luhn/",
-      "image": "/images/uploads/luhn.gif"
+      "image": "/images/uploads/luhn.png"
     }
   ]
 }
