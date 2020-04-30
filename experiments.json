@@ -17,7 +17,7 @@
       "image": "/images/uploads/shap-and-lime.png"
     },
     {
-      "name": "Interpretability Report",
+      "name": "Interpretability",
       "head": "Report",
       "featured": false,
       "description": "Learn about using interpretability techniques on deep learning models.",
