@@ -21,4 +21,6 @@ npm run dev
 
 Running those commands should open a locally running version of the page in your browser. Any edits you make will be automatically reloaded in your browser.
 
+To deploy your changes, commit them and push to master (deployment is automatic on push).
+
 Sometimes the live-reloading server doesn't work, if you're not seeing changes instantly reloaded in the browser, try stopping `npm run dev` and starting it again.
