@@ -1,0 +1,23 @@
+{
+  "name": "exp",
+  "version": "1.0.0",
+  "description": "This repo runs our experiments page: https://experiments.fastforwardlabs.com",
+  "main": "build_html.js",
+  "scripts": {
+    "dev": "nodemon build_html.js & reload -v -p 3000 -b"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fastforwardlabs/exp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fastforwardlabs/exp/issues"
+  },
+  "homepage": "https://github.com/fastforwardlabs/exp#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.3",
+    "reload": "^3.0.4"
+  }
+}
